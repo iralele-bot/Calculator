@@ -1,11 +1,10 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class AdditionTest {
+public class AddTest {
 
     @Test
     void testAddition() {
-        int result = Addition.add(5, 3);
-        assertEquals(8, result);
+        assertEquals(8, Add.add(5, 3));
     }
 }
